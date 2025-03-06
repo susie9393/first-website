@@ -111,6 +111,8 @@ footer {
     color: white;
     text-align: center;
     padding: 20px 0;
+    position: relative; /* Make sure footer is placed over the image */
+    z-index: 10000; /* Higher z-index to make sure it appears above the image */
 }
 
 .footer-links a {
