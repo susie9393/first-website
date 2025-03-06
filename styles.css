@@ -6,6 +6,17 @@ body {
     background-color: #f4f4f4;
 }
 
+/* Fixed Image Border */
+.fixed-image {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw; /* Resize to the width of the viewport */
+    max-width: 100%; /* Prevents the image from becoming too large */
+    height: auto;
+    z-index: 9999;
+}
+
 header {
     background-color: #2d2d2d;
     color: white;
@@ -108,13 +119,3 @@ footer {
     margin: 0 10px;
 }
 
-/* Fixed Image Border */
-.fixed-image {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100vw; /* Resize to the width of the viewport */
-    max-width: 100%; /* Prevents the image from becoming too large */
-    height: auto;
-    z-index: 9999;
-}
