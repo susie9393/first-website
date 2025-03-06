@@ -51,7 +51,7 @@ header ul li a {
 /* Hero Section */
 .hero {
     position: relative;
-    width: auto;
+    width: 40px;
     height: 20px; /* Adjust the height as needed */
     display: flex;
     justify-content: center;  /* Center the content horizontally */
