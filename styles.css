@@ -8,13 +8,13 @@ body {
 
 /* Fixed Image Border */
 .fixed-image {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100vw; /* Resize to the width of the viewport */
-    max-width: 100%; /* Prevents the image from becoming too large */
-    height: auto;
-    z-index: 9999;
+    position: fixed !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    width: 100vw !important; /* Resize to the width of the viewport */
+    max-width: 100% !important; /* Prevents the image from becoming too large */
+    height: auto !important;
+    z-index: 9999 !important;
 }
 
 header {
