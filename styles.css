@@ -113,6 +113,8 @@ footer {
     padding: 20px 0;
     position: relative; /* Make sure footer is placed over the image */
     z-index: 10000; /* Higher z-index to make sure it appears above the image */
+    margin: 0; /* Remove any potential margin */
+    padding: 0; /* Remove any potential padding */
 }
 
 .footer-links a {
