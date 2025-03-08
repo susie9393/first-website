@@ -50,15 +50,15 @@ header ul li a {
 
 /* Hero Section */
 .hero {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 6px;
-    height: 3px;
-    transform: translate(-50%, -50%);
+    position: relative;
+    width: 100%; /* Full width of the viewport */
+    height: 400px; /* Adjust the height to fit your design */
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    background: #333; /* Example background color */
+    color: white;
+    text-align: center;
 }
 
 .hero .hero-text {
